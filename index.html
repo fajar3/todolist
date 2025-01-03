@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#062e3f">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
+    <link rel="stylesheet" href="CSS/main.css">
+    <title>JUST DO IT</title>
+</head>
+<body>
+    <div id="header">
+        <div class="theme-switch">
+            <input type="checkbox" id="theme-toggle" class="theme-toggle">
+            <label for="theme-toggle" class="toggle-label"></label>
+        </div>
+        <h1 id="title">Just do it.</h1>
+    </div>
+
+    <div class="container">
+        <div id="form">
+            <form>
+                <div class="input-group">
+                    <input class="todo-input" type="text" placeholder="Add a task." required>
+                    <input class="author-input" type="text" placeholder="Author name" required>
+                </div>
+                <button class="todo-btn" type="submit">I Got This!</button>
+            </form>
+        </div>
+        <div class="list-container">
+            <div class="priority-section">
+                <h2>Priority Tasks</h2>
+                <ul class="priority-list"></ul>
+            </div>
+            <div class="other-section">
+                <h2>Other Tasks</h2>
+                <ul class="other-list"></ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="JS/main.js"></script>
+</body>
+</html>
